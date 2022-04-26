@@ -3,92 +3,230 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style/bootstrap.min.css">
     <title>Usługi budowlane</title>
 </head>
 <body>
-    <div class="main">
     <header>
-        <div class="logo">
+        <!-- <div class="logo">
             <img class="logo-img" src="" alt="">
         </div>
         <nav>
-            <ul class="list-inline">
+            <ul>
                 <li><a href="">O nas</a></li>
                 <li><a href="">Kontakt</a></li>
-                <li><a href="">adassd</a></li>
+                <li><a href=""></a></li>
             </ul>
-        </nav>
+        </nav> -->
+
+        <div class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
+            <div class="navbar-collapse collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">O nas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#offer">Oferta</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#opinions">Opinie</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Kontakt</a></li>
+                </ul>
+            </div>
+        </div>
+
     </header>
-    <section class="jumbotron">
+    <div class="jumbotron text-white text-center">
+        <div class="container">
+            <h1 class="display-3">Usługi budowlane</h1>
+            <p class="lead">Budujemy przyszłość</p>
+            <button class="btn btn-primary">Placeholder</button>
+        </div>
+    </div>
+    <!-- <section class="jumbotron">
+        <img class="jumbo-img" src="" alt="">
         <h1 class="jumbo-heading">lorem lorem</h1>
         <a class="btn jumbo-btn" href=""></a>
-    </section>
-    <section class="offers">
+    </section> -->
+
+    <!-- <div class="container">
+		<div class="row justify-content-center">
+			<div class="col-4">
+				<img src="" alt="wykopy">
+				<h3 class="">Wykopy</h3>
+			</div>
+			<div class="col-4">
+				<img src="" alt="remont">
+				<h3>Remonty</h3>
+			</div>
+			<div class="col-4">
+				<img src="" alt="wykończenia">
+				<h3>Wykończenia</h3>
+			</div>
+		</div>
+	</div> -->
+
+    <section class="offer" id="offer">
+        <div class="container">
+        <h2>Oferta</h2>
+        <div class="row">
+            <div class="col-lg-4 col-sm-12">
+                <div class="box text-center">
+                    <img src="img/wykopy.jpg" class="offer-img card-img-top" alt="Wykopy" />
+                    <div class="card-body">
+                        <h3 class="offer-heading">Wykopy</h3>
+                        <a href="#!" class="btn btn-dark">Więcej informacji</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-12">
+                <div class="box text-center">
+                    <img src="img/remont.jpg" class="offer-img card-img-top" alt="remont" />
+                    <div class="card-body">
+                        <h3 class="offer-heading">Remonty</h3>
+                        <a href="#!" class="btn btn-dark">Więcej informacji</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-12">
+                <div class="box text-center">
+                    <img src="img/wykonczenia.jpg" class="offer-img card-img-top" alt="wykonczenia" />
+                    <div class="card-body">
+                        <h3 class="offer-heading">Wykończenia</h3>
+                        <a href="#!" class="btn btn-dark">Więcej informacji</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-sm-12">
+                <div class="box text-center">
+                    <img src="img/ocieplanie.jpg" class="offer-img card-img-top" alt="ocieplanie" />
+                    <div class="card-body">
+                        <h3 class="offer-heading">Ocieplenia</h3>
+                        <a href="#!" class="btn btn-dark">Więcej informacji</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-12">
+                <div class="box text-center">
+                    <img src="img/podlogi.jpg" class="offer-img card-img-top" alt="podlogi" />
+                    <div class="card-body">
+                        <h3 class="offer-heading">Podłogi</h3>
+                        <a href="#!" class="btn btn-dark">Więcej informacji</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-12">
+                <div class="box text-center">
+                    <img src="img/elektryka.jpg" class="offer-img card-img-top" alt="elektryka" />
+                    <div class="card-body">
+                        <h3 class="offer-heading">Instalacje elektryczne</h3>
+                        <a href="#!" class="btn btn-dark">Więcej informacji</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <section class="offers">
         <h2>Oferowane usługi</h2>
         <div class="offer-card">
             <h3 class="offer-heading">Wykopy</h3>
-            <img class="offer-img" src="img/ikona.png" alt="">
-            <p class="offer-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi alias dignissimos incidunt. Vero, dolorum tenetur voluptas doloribus numquam quo laborum quidem incidunt eum magni. Accusamus odit et quas est aliquid.</p>
+            <img class="offer-img" src="" alt="">
+            <p class="offer-description">lorem lorem</p>
             <a class="btn offer-btn" href="">Więcej informacji</a>
         </div>
         <div class="offer-card">
             <h3 class="offer-heading">Remonty</h3>
-            <img class="offer-img" src="img/ikona.png" alt="">
-            <p class="offer-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo nemo dolor numquam odio explicabo vel ipsum debitis corrupti eveniet quaerat, amet quos. Perferendis quas quaerat aut, exercitationem odit aperiam et!</p>
+            <img class="offer-img" src="" alt="">
+            <p class="offer-description">lorem lorem</p>
             <a class="btn offer-btn" href="">Więcej informacji</a>
         </div>
         <div class="offer-card">
             <h3 class="offer-heading">Wykończenia</h3>
-            <img class="offer-img" src="img/ikona.png" alt="">
-            <p class="offer-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia consequatur similique labore atque quas in error facere, quidem doloremque soluta temporibus! Quas iusto numquam ad ipsum obcaecati provident quos id.</p>
+            <img class="offer-img" src="" alt="">
+            <p class="offer-description">lorem lorem</p>
             <a class="btn offer-btn" href="">Więcej informacji</a>
         </div>
-    </section>
-    <section class="opinions">
-        <h2>Opinie naszych klientów</h2>
-        <div class="opinion">
-            <h3 class="opinion-name">Jadwiga Kruk</h3>
-            <img class="opinion-img" src="img/ikona.png" alt="">
-            <p class="opinion-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus veritatis at architecto quae soluta id rerum, quis aliquam similique ea nihil tempora voluptatibus corrupti quas voluptatum doloremque ut vel eum!</p>
-        </div>
-        <div class="opinion">
-            <h3 class="opinion-name">Zdzisław Pękala</h3>
-            <img class="opinion-img" src="img/ikona.png" alt="">
-            <p class="opinion-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique sed tenetur neque non pariatur aliquid reiciendis necessitatibus? Quaerat, iure. Debitis similique aliquam beatae optio dolorum nam, unde et provident odio.</p>
-        </div>
-        <div class="opinion">
-            <h3 class="opinion-name">Jan Nowak</h3>
-            <img class="opinion-img" src="img/ikona.png" alt="">
-            <p class="opinion-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est voluptatum mollitia tempore dolorum unde! Aperiam, magnam! Aliquid architecto dolorem at odio quia cum rerum voluptate distinctio non dolorum? Laborum, consectetur.</p>
+    </section> -->
+    <section class="opinions" id="opinions">
+        <div class="container">
+            <h2>Opinie naszych klientów</h2>
+            <div class="row">
+                <div class="opinion card-body col-sm-3">
+                    <h3 class="opinion-name card-title">Jadwiga Kruk</h3>
+                    <img class="opinion-img img-thumbnail card-img-top img-fluid" src="img/person-1.jpg" alt="">
+                    <p class="opinion-description card-text">Bardzo polecam tę firmę. Dzięki nim moja kuchnia jest piękna oraz funkcjonalna.</p>
+                </div>
+                <div class="opinion card-body col-sm-3">
+                    <h3 class="opinion-name card-title">Janusz Pękala</h3>
+                    <img class="opinion-img img-thumbnail card-img-top img-fluid" src="img/person-2.jpg" alt="">
+                    <p class="opinion-description card-text">Jestem właściecielem dużego osiedla. Wszelkie pracę budowlane zlecam tej firmię i jestem bardzo zadowolony. Robota dobrze wykonana.</p>
+                </div>
+                <div class="opinion card-body col-sm-3">
+                    <h3 class="opinion-name card-title">Jan Nowak</h3>
+                    <img class="opinion-img img-thumbnail card-img-top img-fluid" src="img/person-3.jpg" alt="">
+                    <p class="opinion-description card-text">Żona chciała wymienić podłogi w całym mieszkaniu. Firma wykonała pracę bardzo starannie. Żona jest teraz zadowolona.</p>
+                </div>
+            </div>
         </div>
     </section>
     <section class="contact">
-        <h2>Znajdź nas</h2>
-        <div class="contact-container">
-            <div class="form-container">
-                <h3>Formularz kontaktowy</h3>
-                <form class="contact-form" action="">
-                    <label for="name">Imię</label>
-                    <input type="text" id="name">
+        <div class="container" id="contact">
+            <h2>Znajdź nas</h2>
+            <div class="row">
+            <h3>Formularz kontaktowy</h3>
+            <form class="contact-form col-lg-4 col-sm-12" action="">
+                <div class="form-group">
+                    <label  for="name">Imię</label>
+                    <input class="form-control" type="text" id="name">
+                </div>
+                <div class="form-group">
                     <label for="surname">Nazwisko</label>
-                    <input type="text" id="surname">
+                    <input class="form-control" type="text" id="surname">
+                </div>
+                <div class="form-group">
                     <label for="phone">Number telefonu: </label>
-                    <input type="text" id="phone">
+                    <input class="form-control" type="text" id="phone">
+                </div>
+                <div class="form-group">
                     <label for="desc">Treść wiadomości: </label>
-                    <textarea name="desc" id="desc" cols="30" rows="10"></textarea>
-                    <button type="submit">Wyślij</button>
-                </form>
-            </div>
-            <div class="mapouter"><div class="map gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-to.org">123movies</a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style><a href="https://www.embedgooglemap.net">embedgooglemap.net</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div></div>
-        </div>
+                    <textarea class="form-control" name="desc" id="desc" cols="30" rows="5"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Wyślij</button>
+            </form>
         
+        <div class="mapouter col-lg-4 col-sm-12">
+            <div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas"
+                    src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                    <a href="https://123movies-to.org">123movies</a><br>
+                <style>
+                    .mapouter {
+                        position: relative;
+                        text-align: right;
+                        height: 500px;
+                        width: 600px;
+                    }
+                </style><a href="https://www.embedgooglemap.net">embedgooglemap.net</a>
+                <style>
+                    .gmap_canvas {
+                        overflow: hidden;
+                        background: none !important;
+                        height: 500px;
+                        width: 600px;
+                    }
+                </style>
+            </div>
+        </div>
+    </div>
+        </div>
     </section>
     <footer class="footer">
-        &copy; Krzysztof Kowalski &amp; Weronika Nowicka
+        <p>&copy; Krzysztof Kowalski &amp; Weronika Nowicka</p>
+        <div class="icons">
+            <img class="icon" src="icons/facebook.png" alt="facebook icon">
+            <img class="icon" src="icons/instagram.png" alt="instagram icon">
+        </div>
     </footer>
-</div>
 </body>
+
 </html>
