@@ -54,6 +54,7 @@ body {
 	font-family: 'Courier New', Courier, monospace;
 	color: red;
 	line-height: 1.7;
+	padding-top:40px;
 }
 
 p {
@@ -66,9 +67,8 @@ h2, h3, h4, label {
 
 h1 {
 	color: #bbbbbb;
-    font-size: 54px;
     line-height: 1.2;
-	padding: 0 auto;
+	/* padding-top:140px; */
 }
 
 h2 {
@@ -76,15 +76,15 @@ h2 {
 	font-weight: 500;
 	font-size: 36px;
 	text-transform: uppercase;
+	padding-bottom: 40px;
+}
+
+.service {
+	text-align: center;
+	margin-top: 20px;
 }
 
 /* LAYOUT */
-
-/* .main {
-	display: block;
-overflow: auto;
-} */
-
 
 
 header {
@@ -97,18 +97,23 @@ nav {
 	float: right;
 }
 
+.nav-logo {
+	padding-left: 20px;
+	padding-right: 20px;
+
+}
+
+
 .container {
 	padding: 40px 20px;
 }
 
 section {
-	/* height: 100vh; */
 	clear: both;
-	/* border: 1px solid red; */
 	padding: 30px 0;
 }
 
-.jumbotron {
+.jt-mainmenu {
 	height: 100vh;
 	background: linear-gradient(
 		rgba(0, 0, 0, 0.7), 
@@ -118,11 +123,59 @@ section {
 	
 }
 
-.jumbotron>.container {
-	position: absolute;
+.jt-mainmenu>.container {
+position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+} 
+
+.jt-wykopy {
+	background: linear-gradient(
+		rgba(0, 0, 0, 0.7), 
+		rgba(0, 0, 0, 0.7)),
+		url('img/wykopy.jpg');
+		background-size: cover;
+}
+
+.jt-wykonczenia {
+	background: linear-gradient(
+		rgba(0, 0, 0, 0.7), 
+		rgba(0, 0, 0, 0.7)),
+		url('img/wykonczenia.jpg');
+		background-size: cover;
+}
+
+.jt-remonty {
+	background: linear-gradient(
+		rgba(0, 0, 0, 0.7), 
+		rgba(0, 0, 0, 0.7)),
+		url('img/remont.jpg');
+		background-size: cover;
+}
+
+.jt-podlogi {
+	background: linear-gradient(
+		rgba(0, 0, 0, 0.7), 
+		rgba(0, 0, 0, 0.7)),
+		url('img/podlogi.jpg');
+		background-size: cover;
+}
+
+.jt-ocieplenia {
+	background: linear-gradient(
+		rgba(0, 0, 0, 0.7), 
+		rgba(0, 0, 0, 0.7)),
+		url('img/ocieplanie.jpg');
+		background-size: cover;
+}
+
+.jt-elektryka {
+	background: linear-gradient(
+		rgba(0, 0, 0, 0.7), 
+		rgba(0, 0, 0, 0.7)),
+		url('img/elektryka.jpg');
+		background-size: cover;
 }
 
 .offer-card {
@@ -131,22 +184,21 @@ section {
 	margin-top: 24px;
 }
 
-/* .offer-img {
-	width: 100%;
-	max-height: 250px;
-} */
 
 .opinions {
-	background: #72bb8e;
-
+	background: #ffcc29;
 }
 
 .opinion {
-	background: #bbbbbb;
-	width: 33.333%;
-	margin: 10px;
-	border-radius: 5px;
+	background: #ffffff;
+	border-radius: 10px;
+	margin:30px;
 	float: left;
+}
+
+.opinion-img {
+	padding:20px 20px;
+	border-radius: 50%;
 }
 
 .opinion-description {
@@ -159,6 +211,18 @@ section {
 
 .map {
 	float: left;
+}
+
+.btn-return {
+	margin-top: 10px;;
+}
+
+.box {
+	padding-bottom: 30px;;
+}
+
+.description {
+	margin-top:30px;
 }
 
 /* IKONY */
