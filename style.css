@@ -86,10 +86,8 @@ h2 {
 
 /* LAYOUT */
 
-
 header {
 	background: grey;
-	/* height: 12vh; */
 }
 
 nav {
@@ -100,9 +98,7 @@ nav {
 .nav-logo {
 	padding-left: 20px;
 	padding-right: 20px;
-
 }
-
 
 .container {
 	padding: 40px 20px;
@@ -113,6 +109,8 @@ section {
 	padding: 30px 0;
 }
 
+/* Ściemnienie jumbotrona */
+
 .jt-mainmenu {
 	height: 100vh;
 	background: linear-gradient(
@@ -120,7 +118,6 @@ section {
 		rgba(0, 0, 0, 0.7)
 	  ), url('img/baner.jpg');
 	background-size: cover;
-	
 }
 
 .jt-mainmenu>.container {
@@ -184,7 +181,6 @@ position: absolute;
 	margin-top: 24px;
 }
 
-
 .opinions {
 	background: #ffcc29;
 }
@@ -242,4 +238,73 @@ footer {
 .icon {
 	max-height: 26px;
 	margin: 0 20px;
+}
+
+/* animacje */
+
+html {
+	scroll-behavior: smooth;
+}
+
+.fade-in {
+	animation: fadeIn 1.6s both;
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;	
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+/* Pojawianie od góry */
+.fade-in-top {
+	animation: fadeInTop 1.2s both;
+}
+
+@keyframes fadeInTop {
+	0% {
+		opacity: 0;
+		transform: translateY(-50px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+/* Pojawianie od lewej */
+
+.fade-in-left {
+	animation: fadeInLeft 1.2s both;
+}
+
+@keyframes fadeInLeft {
+	0% {
+		opacity: 0;
+		transform: translateX(-50px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+/* Pojawianie od prawej*/
+
+.fade-in-right {
+	animation: fadeInRight 1.2s both;
+}
+
+@keyframes fadeInRight {
+	0% {
+		opacity: 0;
+		transform: translateX(50px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
 }

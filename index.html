@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/img/maxbud_logo_nav.png">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style/bootstrap.min.css">
     <link href='https://fonts.googleapis.com/css?family=Teko' rel='stylesheet'>
@@ -32,7 +33,7 @@
     <div class="jumbotron jt-mainmenu text-white text-center" id="home-page">
         <div class="container">
             <a class="head-logo"><img src="img/maxbud_logo_duze.png" width="250" height="250" /></a>
-            <h1 class=" title display-1">Usługi budowlane</h1>
+            <h1 class="title display-1 fade-in-top">Usługi budowlane</h1>
             <p class="lead">Budujemy przyszłość</p>
             <a class="btn btn-warning" href="#offer" role="button">Sprawdź naszą ofertę</a>
         </div>
@@ -40,7 +41,7 @@
     <section class="offer" id="offer">
         <div class="container">
             <h2>Oferta</h2>
-            <div class="row">
+            <div class="row animated" id="row1">
                 <div class="col-lg-4 col-sm-12">
                     <div class="box text-center">
                         <img src="img/wykopy.jpg" class="offer-img card-img-top" alt="Wykopy" />
@@ -69,7 +70,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row animated" id="row2">
                 <div class="col-lg-4 col-sm-12">
                     <div class="box text-center">
                         <img src="img/ocieplanie.jpg" class="offer-img card-img-top" alt="ocieplanie" />
@@ -103,19 +104,19 @@
             <div class="container">
                 <h2>Opinie naszych klientów</h2>
                 <div class="row box text-center d-flex justify-content-between">
-                    <div class="opinion card-body col-lg-3 col-md-6 col-sm-12">
+                    <div class="opinion card-body col-lg-3 col-md-6 col-sm-12 animated-card" id="card1">
                         <h3 class="opinion-name card-title">Jadwiga Kruk</h3>
                         <img class="opinion-img img-fluid" src="img/person-1.jpg" alt="">
                         <p class="opinion-description card-text">Bardzo polecam tę firmę. Dzięki nim moja kuchnia jest
                             piękna oraz funkcjonalna.</p>
                     </div>
-                    <div class="opinion card-body col-lg-3 col-md-6 col-sm-12">
+                    <div class="opinion card-body col-lg-3 col-md-6 col-sm-12 animated-card" id="card2">
                         <h3 class="opinion-name card-title">Janusz Pękala</h3>
                         <img class="opinion-img img-fluid" src="img/person-2.jpg" alt="">
                         <p class="opinion-description card-text">Jestem właściecielem dużego osiedla. Wszelkie pracę
                             budowlane zlecam tej firmie i jestem bardzo zadowolony. Robota dobrze wykonana.</p>
                     </div>
-                    <div class="opinion card-body col-lg-3 col-md-6 col-sm-12">
+                    <div class="opinion card-body col-lg-3 col-md-6 col-sm-12 animated-card" id="card3">
                         <h3 class="opinion-name card-title">Jan Nowak</h3>
                         <img class="opinion-img img-fluid" src="img/person-3.jpg" alt="">
                         <p class="opinion-description card-text">Żona chciała wymienić podłogi w całym mieszkaniu. Firma
@@ -182,9 +183,10 @@
                 <img class="icon" src="icons/instagram.png" alt="instagram icon">
             </div>
         </footer>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
 </body>
 
 </html>
